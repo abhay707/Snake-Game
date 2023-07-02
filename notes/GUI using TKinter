@@ -1,0 +1,6 @@
+                                        Import tkinter
+
+-> First to create a screen we have to call "tkinter.Tk()"
+-> To keep that screen running we have to call ".mainloop()"
+-> ".title("Title here") is used to give title
+-> ".minsize("width" "height")" it is used to set height and width

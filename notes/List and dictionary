@@ -1,0 +1,23 @@
+                                                List Comprehension
+-> It's a case in which we create a list from previous list
+
+Syntax:
+    new_list = [new_item for item in list if test]
+    -> new_item = It is the process that we want to do on the list
+    -> item = We can name it anything it represents the variable in which data is stored
+    -> list = It is the list that we have to go through
+    -> test = It is the condition that is checked to run the LOC
+
+for example:
+    We have a list and we want to create another list from it by increasing one number to each element
+    numbers = [1,2,3]
+    new_list = [n+1 for n in numbers]
+
+    We have a list of names and want to create another list from it that contain only names which have 4 or less than 4 character
+    names = ["Anu", "Abhay", "ram", "Beth", "Dave", "Caroline"]
+    short_names = [name for name in names if len(names) < 5]
+
+                                                Dictionary Comprehension
+Syntax:
+    new_dict = {new_key:new_value for item in list}
+    new_dict = {new_key:new_value for (key, value) in dict.item() if test}

@@ -1,0 +1,74 @@
+                            Object oriented programming
+
+-> OOP it is a type of procedural programming in which one procedure leads to another
+-> It is used to make easily understandable projects
+-> In oop we separate a large code into there own modules and each module have its own functions
+-> We can use these modules in other project and refer to them later
+-> It known as object oriented programming because it tries to model real life objects
+
+                            Attributes and Methods
+
+In oop we try to remodel real life objects and a real object have things and it can do things
+Attributes:
+    -> It contains things that a object have
+    -> In other words it is a variable
+    -> for example a waiter have attributes like (is_holding_plate = True), (tables_responsible = 4,5,6), etc...
+
+Methods:
+    -> It contains the things that a object does
+    -> In other words it is functions
+    -> It is not just a function because it is related to the object and all the functions have same object
+    -> For example a waiter have methods like (def take_order(table, order)
+
+                            Class and Objects
+
+Class:
+    -> It is just a blueprint of a object that we wanted to use again and again
+    -> We can generate multiple classes in a project
+    -> For example we have a waiter class we can generate multiple waiter with that class
+    -> First word in a class is capital it's called PascalCase
+
+Objects:
+    -> The things that we generate from blueprint or classes is object
+    -> There can be multiple objects in a single class all have same attributes and methods
+    -> For example we can have multiple waiter with same waiter class
+
+                            Examples
+
+car = CarBlueprint()
+Here car is an object and CarBlueprint() is class
+
+car.speed
+Car is class and speed is a attribute of car
+
+car.stop()
+Here we can call a function from a car
+
+                         Constructor
+
+-> The constructor is created in the beginning of the class
+-> It contain all the attributes that a class have
+-> It is also know as initializing an object
+-> Whenever we create a object from the class the init function got triggered
+-> Self is the actual object that have been created
+
+Syntex:
+    def __init__(self, seats, car_model):
+    #initialise attributes
+
+        self.seats = seats
+        self.model = car_model
+    #it is same as my_car = Car(5) but alot quicker
+
+                            To create a class and methods
+
+Syntex:
+    class User:
+        Everything that belong to the classes is written here
+
+    user_1 = User() #To create object from the class
+    user_1.id = "001" #Used to give object some attribute
+
+Syntex for method:
+    def method_name(self):
+        Everything that belong to the method

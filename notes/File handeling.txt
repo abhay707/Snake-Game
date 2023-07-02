@@ -1,0 +1,16 @@
+* open("file name") = to open a file
+* with open("file name") as variable = it is used so that we don't have to worry about closing the file
+* readlines() = It return all lines of the file as a list
+* replace("replacing text", "replaced text") = used to replace text
+* txt.strip() = It is used to get rid of all the unnecessary space in between texts
+
+-> After using with then we can use that variable name to write read and append operations for example : variable.read, variable.write
+
+                                                                   PATH
+-> We can navigate through files and folders to get the required path of the file
+    "/" = this is root folder(c drive)
+-> There are two types of path
+    Absolute path
+        example = /work/project/take.ppt
+    Relative path
+        example = ./take.ppt or ../report.doc (It is used to go to the previous or top directory)

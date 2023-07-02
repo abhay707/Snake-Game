@@ -1,0 +1,11 @@
+                                                    Why Error Handling
+
+-> We stumble through an error between the codes our project after that error will not work
+-> In that case error handling is used to accept that error and our remaining program will work without any issue
+-> We can catch and except the error
+
+* "try" = Something that might cause an exception
+* "Except" = Do this if there was an exception
+* "else" = Do this if there were no exceptions
+* "finally" = Do this no matter what happen
+* "raise" = Used to raise an error intentionally

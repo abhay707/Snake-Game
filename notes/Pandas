@@ -1,0 +1,37 @@
+-> We can manipulate the data of spreadsheet(tabular data) just like files
+-> The post which is used in it is .csv
+-> We can apply python to extract the data from a table
+
+                                            Import csv
+
+It is an python library with is used to manipulate the data of the spreadsheet
+
+-> First you have to open the file then we can use csv.reader
+
+* csv.reader = It is used to read the csv type file data
+    Syntax:
+    data = csv.reader("File name")
+    print(data)
+
+-> Now we can apply any command to that data like loop or conditions to go through the data
+-> We get the data in a particular string formatting by csv.reader
+
+                                            Import Pandas
+
+-> csv cannot be used for big projects or large about of data so here comes another library know as panda
+-> Panda has many functionality that helps us to manipulate the data and complete task easily
+-> We do not have to open the file to use the pandas
+
+* pandas.read_csv = it is used to read the csv file
+    syntax:
+        data = pandas.read_csv("file name")
+
+* data.to_dict = convert our data to dictionary (to_html, to_exel, to_sql)
+* data.to_csv = convert any data to csv file
+* pandas.DataFrame = To read the data
+
+-> Pandas return two types of data dataframe and series
+    -> Whole table in the spreadsheet refers to dataframe
+    -> Each single column in that series
+
+
