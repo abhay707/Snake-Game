@@ -1,0 +1,5 @@
+def greeting(name: str) -> str:
+    return "Hello" + name
+
+* Here (name: str) is used to give us hint that this function accept a string
+* Here (-> str) is used to give us hint that this function returns a string
